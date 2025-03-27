@@ -1,5 +1,104 @@
-<head>
-  <meta charset="UTF-8">
-  <title>Masked Special Forces Web Game</title>
-  <link rel="stylesheet" href="application.css">
-</head>
+/* Custom Fonts */
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fonts/IM_Fell_Great_Primer/IMFellGreatPrimer-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik Glitch';
+    src: url('fonts/Rubik_Glitch/RubikGlitch-Regular.ttf') format('truetype');
+}
+
+/* General Styles */
+body {
+    font-family: 'IM Fell Great Primer', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #78866B;
+    background-image: url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+    background-repeat: repeat;
+    background-size: auto;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+h1, h2 {
+    font-family: 'Rubik Glitch', cursive;
+    text-align: center;
+    color: #222;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #bbb;
+}
+
+ol {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    list-style-position: inside;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+    ol li {
+        margin: 10px 0;
+        padding-left: 5px;
+    }
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
