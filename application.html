@@ -5,105 +5,160 @@
   <title>Masked Special Forces Web Game</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0e0e0;
       color: #333;
     }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #222;
+    }
+
     iframe {
       width: 100%;
-      max-width: 960px;
       height: 600px;
-      border: 2px solid #222;
+      border: 2px solid #333;
+      border-radius: 8px;
       margin: 20px 0;
     }
-    img {
-      width: 200px;
-      border-radius: 8px;
-      margin: 10px;
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
+
     .images {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       gap: 10px;
       margin-bottom: 30px;
     }
+
+    img {
+      width: 200px;
+      border-radius: 8px;
+      border: 2px solid #bbb;
+    }
+
+    ol {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      list-style-position: inside;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    ol li {
+      margin: 10px 0;
+      padding-left: 5px;
+    }
+
     table {
       width: 100%;
-      max-width: 600px;
-      border-collapse: collapse;
       margin-top: 20px;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     th, td {
-      border: 1px solid #444;
-      padding: 10px;
+      padding: 12px 15px;
+      border: 1px solid #ccc;
       text-align: left;
     }
+
     th {
-      background-color: #eee;
+      background-color: #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
     }
   </style>
 </head>
 <body>
 
-  <h1>Masked Special Forces Web Game</h1>
+  <div class="container">
 
-  <p>Masked Special Forces is an intense first-person shooter available directly in your browser. Step into the boots of a special ops soldier and engage in thrilling multiplayer battles or solo missions against AI enemies.</p>
+    <h1>Masked Special Forces Web Game</h1>
 
-  <iframe src="https://www.onlinegames.io/masked-special-forces/" allowfullscreen></iframe>
+    <p>Masked Special Forces is an intense first-person shooter available directly in your browser. Step into the boots of a special ops soldier and engage in thrilling multiplayer battles or solo missions against AI enemies.</p>
 
-  <h2>Game Overview</h2>
+    <iframe src="https://www.onlinegames.io/masked-special-forces/" allowfullscreen></iframe>
 
-  <p>The game offers a variety of weapons, maps, and customization options. Players can select different characters and gear, participate in various game modes, and test their skills against global opponents in real time.</p>
+    <h2>Game Overview</h2>
 
-  <div class="images">
-    <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109356_masked-special-forces.jpg" alt="Gameplay Screenshot 1">
-    <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109377_masked-special-forces-2.jpg" alt="Gameplay Screenshot 2">
-    <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109368_masked-special-forces-3.jpg" alt="Gameplay Screenshot 3">
+    <p>The game offers a variety of weapons, maps, and customization options. Players can select different characters and gear, participate in various game modes, and test their skills against global opponents in real time.</p>
+
+    <div class="images">
+      <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109356_masked-special-forces.jpg" alt="Gameplay Screenshot 1">
+      <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109377_masked-special-forces-2.jpg" alt="Gameplay Screenshot 2">
+      <img src="https://www.onlinegames.io/uploads/posts/2021-09/1631109368_masked-special-forces-3.jpg" alt="Gameplay Screenshot 3">
+    </div>
+
+    <h2>How to Play</h2>
+
+    <ol>
+      <li>Use the <strong>WASD</strong> keys to move around the battlefield.</li>
+      <li>Use the mouse to aim and left-click to fire your weapon.</li>
+      <li>Press <strong>R</strong> to reload when you're low on ammo.</li>
+      <li>Choose a game mode (Multiplayer or Solo) from the main menu.</li>
+      <li>Complete missions and eliminate enemies to earn points.</li>
+    </ol>
+
+    <h2>Default Controls</h2>
+
+    <table>
+      <tr>
+        <th>Action</th>
+        <th>Key</th>
+      </tr>
+      <tr>
+        <td>Move Forward</td>
+        <td>W</td>
+      </tr>
+      <tr>
+        <td>Move Backward</td>
+        <td>S</td>
+      </tr>
+      <tr>
+        <td>Strafe Left</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Strafe Right</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>Reload</td>
+        <td>R</td>
+      </tr>
+      <tr>
+        <td>Jump</td>
+        <td>Spacebar</td>
+      </tr>
+    </table>
+
   </div>
-
-  <h2>How to Play</h2>
-
-  <ol>
-    <li>Use the <strong>WASD</strong> keys to move around the battlefield.</li>
-    <li>Use the mouse to aim and left-click to fire your weapon.</li>
-    <li>Press <strong>R</strong> to reload when you're low on ammo.</li>
-    <li>Choose a game mode (Multiplayer or Solo) from the main menu.</li>
-    <li>Complete missions and eliminate enemies to earn points.</li>
-  </ol>
-
-  <h2>Default Controls</h2>
-
-  <table>
-    <tr>
-      <th>Action</th>
-      <th>Key</th>
-    </tr>
-    <tr>
-      <td>Move Forward</td>
-      <td>W</td>
-    </tr>
-    <tr>
-      <td>Move Backward</td>
-      <td>S</td>
-    </tr>
-    <tr>
-      <td>Strafe Left</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Strafe Right</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <td>Reload</td>
-      <td>R</td>
-    </tr>
-    <tr>
-      <td>Jump</td>
-      <td>Spacebar</td>
-    </tr>
-  </table>
 
 </body>
 </html>
+
