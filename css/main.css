@@ -1,0 +1,56 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #78866B; /* Olive/grey-green base */
+    background-image: url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+    background-repeat: repeat;
+    background-size: auto;
+    color: #333;
+  
+img {
+    width: 100%;
+    border-radius: 8px;
+    opacity: 0.95;
+    filter: grayscale(10%);
+}
+h1 {
+    color: rgb(30, 60, 90); 
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+a {
+    color: hsl(210, 80%, 40%); 
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+header {
+    background-color: #ddeeff;
+    padding: 20px;
+}
+footer {
+    background-color: #ccddee;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
