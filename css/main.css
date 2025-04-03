@@ -54,3 +54,13 @@ nav ul {
         display: inline-block;
         margin-right: 15px;
     }
+
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fonts/IMFellGreatPrimer-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik Glitch';
+    src: url('fonts/RubikGlitch-Regular.ttf') format('truetype');
+}
