@@ -1,0 +1,118 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fonts/IMFellGreatPrimer-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik Glitch';
+    src: url('fonts/RubikGlitch-Regular.ttf') format('truetype');
+}
+
+/* Page Background */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #78866B; /* Olive/grey-green base */
+    background-image: url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+    background-repeat: repeat;
+    background-size: auto;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #222;
+}
+
+/* Embedded Game Frame */
+iframe {
+    width: 100%;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+/* Image Gallery */
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+    .images img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #aaa;
+        transition: transform 0.3s ease;
+    }
+
+        .images img:hover {
+            transform: scale(1.03);
+        }
+
+/* Instruction List */
+ol {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    list-style-position: inside;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+    ol li {
+        margin: 10px 0;
+        padding-left: 5px;
+    }
+
+/* Control Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
