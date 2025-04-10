@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Template</title>
+    <title>Japan Travel Search</title>
     <meta charset="UTF-8">
-    <p>Testing</p>
   </head>
   <body>
-    <h1>Page Title</h1>
-    <h2>Subheading</h2>
-    <p>Body Text</p>
-    <h2>Subheading</h2>
-    <p>Body Text</p>
-  </body>
+  <h1>Search for Travel Destinations in Japan</h1>
+  <form action="https://www.google.com/search" method="get">
+
+    <label for="as_q">General Keywords:</label>
+    <input type="text" id="as_q" name="as_q" placeholder="e.g., temples, mountains, food"><br><br>
+
+    <label for="as_epq">Exact Phrase:</label>
+    <input type="text" id="as_epq" name="as_epq" placeholder="e.g., cherry blossom festival"><br><br>
+    
+    <label for="as_sitesearch">Search Specific Site:</label>
+    <select id="as_sitesearch" name="as_sitesearch">
+      <option value="">Any site</option>
+      <option value="japan.travel">japan.travel</option>
+      <option value="japan-guide.com">japan-guide.com</option>
+      <option value="tokyocheapo.com">tokyocheapo.com</option>
+    </select><br><br>
+
+    <fieldset>
+      <legend>Select Language:</legend>
+      <input type="radio" id="lang_en" name="lr" value="lang_en">
+      <label for="lang_en">English</label><br>
+      <input type="radio" id="lang_ja" name="lr" value="lang_ja">
+      <label for="lang_ja">Japanese</label><br>
+    </fieldset><br>
+
+    <fieldset>
+      <legend>File Type (Guides):</legend>
+      <input type="checkbox" id="pdf" name="as_filetype" value="pdf">
+      <label for="pdf">PDF Only</label><br>
+    </fieldset><br>
+    
+    <input type="submit" value="Search Japan Destinations">
+
+  </form>
+</body>
 </html>
