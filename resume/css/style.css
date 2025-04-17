@@ -1,4 +1,5 @@
-
+/* ===== Custom Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* ===== Global Styles ===== */
 body {
@@ -81,7 +82,6 @@ a {
         text-decoration: underline;
     }
 
-/* ===== Profile Image ===== */
 .profile-img {
     width: 200px;
     height: 200px;
@@ -90,6 +90,9 @@ a {
     border: 4px solid #ccc;
     background-color: white;
     margin-top: 15px;
+    image-rendering: auto; /* this ensures the browser uses the best rendering */
+}
+
 }
 
 /* ===== Optional Footer ===== */
@@ -113,3 +116,8 @@ footer {
     .images img:hover {
         transform: scale(1.03);
     }
+/* === Fix list bullets and padding === */
+.content-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
